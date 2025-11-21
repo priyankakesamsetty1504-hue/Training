@@ -1,0 +1,12 @@
+function getbrowser(browsername){
+if (browsername=== "chrome"){
+    console.log("launching chrome browser");
+} else if (browsername === "firefox"){
+    console.log("launching firefox browser");
+    
+} else {
+    console.log("please provide a valid browser name");
+}
+
+}
+getbrowser("firefox");
