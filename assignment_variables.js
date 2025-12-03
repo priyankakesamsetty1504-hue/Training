@@ -6,7 +6,7 @@ function getBrowserVersion(browserVersion)
   
     if (browserVersion == "chrome") {
       var browserVersion="4.0.7";
-      console.log("Launching Chrome browser","browserVersion");
+      console.log("Launching Chrome browser",browserVersion);
       console.log(browserVersion);
 }
 else 
